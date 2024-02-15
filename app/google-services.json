@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884946352324",
+    "project_id": "polyticket-d4d30",
+    "storage_bucket": "polyticket-d4d30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884946352324:android:0ed818f52c4ad4d4c1b191",
+        "android_client_info": {
+          "package_name": "com.example.polyproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhoWz7OfaTQ2eTPNfyII2apCSJAkzsQZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
