@@ -24,7 +24,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomePage" />
-        <activity android:name=".NewActivity" />
+        <activity android:name=".CreateTicket" />
+        <activity android:name=".TicketPage" />
+        <activity android:name=".Ticket" />
     </application>
 
 </manifest>

@@ -24,8 +24,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.tasks.Task
 import com.google.android.gms.common.api.ApiException
+import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : ComponentActivity() {
+
     private val RC_SIGN_IN = 9001
     private val TAG = "MainActivity"
     private lateinit var mGoogleSignInClient: GoogleSignInClient
@@ -86,6 +88,13 @@ class MainActivity : ComponentActivity() {
     private fun updateUI(account: GoogleSignInAccount?) {
         // Update your UI here based on user's account.
         val intent = Intent(this, HomePage::class.java)
+        val bundle = Bundle()
+
+        if (account != null) {
+            bundle.putString("email", account.email)
+        }
+
+        intent.putExtras(bundle)
         startActivity(intent)
     }
 }

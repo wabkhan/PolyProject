@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "884946352324",
+    "firebase_url": "https://polyticket-d4d30-default-rtdb.firebaseio.com",
     "project_id": "polyticket-d4d30",
     "storage_bucket": "polyticket-d4d30.appspot.com"
   },
@@ -12,7 +13,12 @@
           "package_name": "com.example.polyproject"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "884946352324-c8q2kai470kp7qqnkpcr6sagm6a8ll2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAhoWz7OfaTQ2eTPNfyII2apCSJAkzsQZI"
@@ -20,7 +26,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884946352324-c8q2kai470kp7qqnkpcr6sagm6a8ll2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
